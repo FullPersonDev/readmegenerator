@@ -1,20 +1,26 @@
 
-# My First Document Generator
+# My new Document Generated
+
 
 ## Table of Contents
-Yes
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Tests](#tests)
+
 
 ## Description
-This will auto generate a read me file!
+In this version of the document there should now be a table of contents after so much testing :)
 
 ## Installation
-You will need Visual Studio
+You need to install VS Code
 
 ## Usage
 Use as many times as you want
 
 ## Contributions
-Contribute as much as you like!!
+Contribute to as much as you like!
 
 ## Tests
-Please create a test branch, thank you.
+Create a test branch

@@ -12,11 +12,22 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
+  var tableOfContents = '';
+  
+  if(answers.table === 'Yes'){
+  tableOfContents =`
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [Tests](#tests)
+`  } else {''}
+
   return `
 # ${answers.title}
 
-## Table of Contents
-${answers.table}
+${tableOfContents}
 
 ## Description
 ${answers.description}
