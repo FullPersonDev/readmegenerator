@@ -1,5 +1,5 @@
 
-# My new Document Generated
+# Martin's New Generated File
 
 
 ## Table of Contents
@@ -8,19 +8,26 @@
 - [Usage](#usage)
 - [Contribution](#contribution)
 - [Tests](#tests)
+- [Questions](#questions)
 
 
 ## Description
-In this version of the document there should now be a table of contents after so much testing :)
+This is a new an improved generated read me file that has github username and email
 
 ## Installation
-You need to install VS Code
+You will need Visual Studio
 
 ## Usage
-Use as many times as you want
+Use as many times as you need
 
 ## Contributions
-Contribute to as much as you like!
+Contribute as much as you want
 
 ## Tests
 Create a test branch
+
+## Questions
+https://github.com/fullpersondev
+
+How to reach me with additional questions:
+myeamil@gmail.com

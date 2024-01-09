@@ -42,21 +42,25 @@ const questions = [
         type: 'input',
         name: 'test',
         message: 'Please provide testing instructions:'
+    },
+    {
+        type: 'input',
+        name: 'username',
+        message: 'If someone has questions, what is your Github username?'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'If someone has questions, what is your email?'
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'What type of license should your application have?',
+        choices: ['None', 'MIT License', 'Apache License 2.0']
     }
 ];
 inquirer.prompt(questions).then(answers => {
-    console.log(
-`Here is what you said.
-    Your title is: ${answers.title}
-    If you want table of content: ${answers.table}
-    Your description is: ${answers.description}
-    Your installation is: ${answers.installation}
-    Your usage is: ${answers.usage}
-    Your contribution is: ${answers.contribution}
-    Your test is: ${answers.test}
-    
-Thank you`);
-
     writeToFile('README.md', generateMarkdown(answers));
 });
 
