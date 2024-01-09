@@ -21,7 +21,7 @@ ${answers.table}
 ## Description
 ${answers.description}
 
-## Instalation
+## Installation
 ${answers.installation}
 
 ## Usage
