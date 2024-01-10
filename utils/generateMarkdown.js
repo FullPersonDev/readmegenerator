@@ -70,7 +70,7 @@ ${answers.installation}
 ## Usage
 ${answers.usage}
 
-## Contributions
+## Contribution
 ${answers.contribution}
 
 ## Tests
